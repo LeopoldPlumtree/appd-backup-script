@@ -12,7 +12,7 @@ def get_applications():
     conturl = "192.168.43.45"
 
     # Switch For Port
-    contport = "8090"
+    contport = "8091"
 
     # Define BaseURL for individual HTTP requests
     baseURL = 'https://{url}:{port}/controller/ConfigObjectImportExportServlet?applicationId='.format(url=conturl, port=contport)
